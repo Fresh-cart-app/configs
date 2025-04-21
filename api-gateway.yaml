@@ -1,1 +1,7 @@
-
+routes:
+  - path: /api/users
+    target: http://user-service:3000
+    protocol: http
+  - path: /grpc/payments
+    target: grpc://payment-service:50051
+    protocol: grpc
