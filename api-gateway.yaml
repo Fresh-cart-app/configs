@@ -3,7 +3,7 @@ routes:
     target: http://user-service:3002
     protocol: http
   - path: /api/cart
-    target: http:/localhost:3001
+    target: http://localhost:3001
     protocol: http
   - path: /grpc/payments
     target: grpc://payment-service:50051
