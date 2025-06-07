@@ -1,6 +1,6 @@
 routes:
   - path: /api/users
-    target: http://user-service:3000
+    target: http://user-service:3002
     protocol: http
   - path: /grpc/payments
     target: grpc://payment-service:50051
