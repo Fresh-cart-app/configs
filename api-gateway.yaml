@@ -4,6 +4,7 @@ routes:
     protocol: http
   - path: /api/cart
     target: http://cart-service:3001
+    protocol: http
   - path: /grpc/payments
     target: grpc://payment-service:50051
     protocol: grpc
